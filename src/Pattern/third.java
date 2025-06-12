@@ -41,7 +41,7 @@ public class third {
 			g  h  i  j   
 			k  l  m  n  o  
 
-		 */
+	
 		
 		
 		char ch = 'a';
@@ -58,7 +58,30 @@ public class third {
 			}
 			System.out.println();						
 		}	
+
+		*/
+
 		
+		
+//		A     
+//		A B    
+//		A B C   
+//		A B C D  
+//		A B C D E 
+
+		for (int i = 1; i <=n; i++) {
+			char ch = 'A';
+			for (int j = 1; j <=n; j++) {
+				
+				if(i>=j) {
+					System.out.print(ch++ +" ");				
+				}
+				else {
+					System.out.print(" ");					
+				}				
+			}
+			System.out.println();						
+		}	
 		
 	}		
 }
