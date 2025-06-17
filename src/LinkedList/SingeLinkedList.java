@@ -22,7 +22,6 @@ class SingleLL{
 	
 }
 
-
 public class SingeLinkedList {
 	
 	public static void main(String[] args) {
